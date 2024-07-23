@@ -55,8 +55,23 @@
 
 
     </div>
-    <section></section>
+    <section class="section2">
+        <p>
+            <span class="audio-text" onclick="playAudio()">"I touched the stars, and saw the glorious light of a thousand suns! Now, blinded by this elegance, how could my purpose be anything... but dark..."</span>
+            <audio id="audio" src="sound/Aatrox_Original_MoveLong_13.ogg"></audio>
+        </p>
+        <p class="aatrox">Aatrox,The Wolrd Ender</p>
+    
+
+
+    </section>
     <section></section>
     <footer></footer>
+    <script>
+        function playAudio() {
+            var audio = document.getElementById("audio");
+            audio.play();
+        }
+    </script>
 </body>
 </html>
